@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 <html>
+<!--Capture and store a URL-->
+{% capture location %} {{ page.url | split:'/' }} {% endcapture %}
   <head>
     <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
 
