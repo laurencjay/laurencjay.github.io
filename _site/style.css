@@ -119,7 +119,10 @@ a {
   text-decoration: none;
   cursor: pointer;
 }
-a:hover, a:active {
+a:hover {
+  color: #4183C4;
+}
+a:active {
   color: #4183C4;
 }
 
@@ -252,10 +255,10 @@ img {
 }
 
 nav {
-  float: right;
   margin-top: 23px;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 18px;
+  font-size: 24px;
+  text-align: center;
 }
 @media screen and (max-width: 640px) {
   nav {
@@ -309,7 +312,7 @@ nav a {
   margin-top: 50px;
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
-  background-color: #669999;
+  background-color: #00004d;
 }
 
 footer {

@@ -72,7 +72,10 @@ a {
   color: $blue;
   text-decoration: none;
 	cursor: pointer;
-  &:hover, &:active {
+  &:hover {
+    color: $blue;
+  }
+  &:active {
     color: $blue;
   }
 }
@@ -211,10 +214,10 @@ img {
 }
 
 nav {
-  float: right;
   margin-top: 23px; // @TODO: Vertically middle align
   font-family: $helveticaNeue;
-  font-size: 18px;
+  font-size: 24px;
+  text-align: center;
 
   @include mobile {
     float: none;
@@ -275,7 +278,7 @@ nav {
   margin-top: 50px;
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
-  background-color: $lteal;
+  background-color: $dblue;
 }
 
 footer {
