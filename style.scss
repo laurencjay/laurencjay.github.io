@@ -31,9 +31,9 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: $helveticaNeue;
+  font-family: $lucida;
   color: $darkerGray;
-  font-weight: bold;
+
 
   line-height: 1.7;
   margin: 1em 0 15px;
@@ -46,6 +46,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-size: 30px;
+  color: darken($gray, 15%);
   a {
     color: inherit;
   }
@@ -57,6 +58,7 @@ h2 {
 
 h3 {
   font-size: 20px;
+  color: darken($gray, 15%);
 }
 
 h4 {
@@ -66,6 +68,7 @@ h4 {
 
 p {
   margin: 15px 0;
+  color: $gray;
 }
 
 a {
@@ -101,6 +104,10 @@ ul ul, ol ul {
   list-style-type: circle;
 }
 
+li {
+  color: $gray;
+}
+
 em, i {
   font-style: italic;
 }
@@ -133,8 +140,6 @@ img {
   background: $lightGray;
 }
 
-// Nicolas Gallagher's micro clearfix hack
-// http://nicolasgallagher.com/micro-clearfix-hack/
 .clearfix:before,
 .clearfix:after {
     content: " ";

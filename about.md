@@ -4,12 +4,14 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Thanks for stopping by! This is a space to talk about the things I'm interested in, including:
 
-### More Information
-
-A place to include any other types of information that you'd like to include about yourself.
+- Tech, particularly Women in Tech issues
+- Coding
+- Maps and all things geo-related
+- Random thoughts
+- [Marnie the Dog](https://www.instagram.com/marniethedog/?hl=en)
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+Hit me up on [twitter](https://twitter.com/Lauren_CJay)
