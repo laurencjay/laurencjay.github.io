@@ -69,6 +69,8 @@ h4 {
 p {
   margin: 15px 0;
   color: $gray;
+  font-family: $lucida;
+
 }
 
 a {
@@ -106,6 +108,7 @@ ul ul, ol ul {
 
 li {
   color: $gray;
+  font-family: $lucida;
 }
 
 em, i {
@@ -127,7 +130,8 @@ img {
 
 .date {
   font-style: italic;
-  color: $gray;
+  color: $blue;
+  font-size: 13px;
 }
 
 // Specify the color of the selection
@@ -277,6 +281,11 @@ nav {
     text-transform: uppercase;
     font-size: 15px;
   }
+}
+
+.feat-img {
+  width: 700px;
+  height: 300px;
 }
 
 .wrapper-footer {
